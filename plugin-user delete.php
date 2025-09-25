@@ -3,7 +3,7 @@
 Plugin Name: Delete Fake Subscribers
 Description: Delete fake subscriber accounts with suspicious names and email addresses.
 Version: 1.1
-Author: ChatGPT
+Author: Mary Kimani
 */
 
 if (!defined('ABSPATH')) exit;
@@ -112,4 +112,5 @@ class DeleteFakeSubscribers {
 }
 
 new DeleteFakeSubscribers();
+
 
